@@ -12,3 +12,4 @@ Route::get('/namaOrang', [NamaOrangController::class, 'index']);
 Route::post('/namaOrang', [NamaOrangController::class, 'store']);
 Route::patch('/namaOrang/{namaOrang}', [NamaOrangController::class, 'update']);
 Route::delete('/namaOrang/{namaOrang}', [NamaOrangController::class, 'destroy']);
+Route::get('/namaOrang/{namaOrang}', [NamaOrangController::class, 'show']);
