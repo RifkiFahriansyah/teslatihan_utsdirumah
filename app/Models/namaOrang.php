@@ -4,11 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
-use Illuminate\Database\Eloquent\Factories\hasFactory;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class namaOrang extends Model
 {
-    use hasFactory, hasUuids;
+    use HasFactory, HasUuids;
 
     protected $fillable = ["nama"];
 
