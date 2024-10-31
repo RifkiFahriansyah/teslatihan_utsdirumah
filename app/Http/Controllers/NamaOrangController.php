@@ -15,7 +15,7 @@ class NamaOrangController extends Controller
     {
        $namaOrang = namaOrang::all();
        $data['success'] = true;
-       $data['result'] = $data;
+       $data['result'] = $namaOrang;
        return response()->json($data, Response::HTTP_OK);
     }
 
